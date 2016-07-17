@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
 
 
 /*************************
@@ -178,8 +179,41 @@ body > section {
   display: inline-block;
 }
 
+.navbar .navbar-inverse{
+
+}
+
 .navbar>.container .navbar-brand{
   margin-left: 0;
+  font-size: 26px;
+  line-height: 60px;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
+
+.navbar>.container>.navbar-header{
+width: 500px;
+margin: 0px 15px;
+}
+
+.navbar>.container .navbar-brand {
+    display: inline-block;
+    /* border: 1px solid white; */
+    padding: 0;
+    position: relative;
+    margin-left: -15px;
+}
+
+a.navbar-brand{
+  font-size: 10px;
+
+}
+
+a.navbar-brand>img.iclLogo{
+  /*border: 1px solid red;*/
+  position: relative;
+  width: 50%;
+  height: auto;
 }
 
 .top-bar {
@@ -265,9 +299,10 @@ input.search-form:hover {
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  background: #151515;
-  padding: 15px 0;
+  background: #323254;
+  padding: 15px 0 5px;
   padding-bottom: 0;
+  border-bottom: 5px solid #c52d2f;
 }
 
  .navbar-nav{
@@ -289,18 +324,16 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-	background-color: #c52d2f;
-  color: #fff;
+	background-color: #fff;
+  color: #323254;
 }
 
 .navbar-inverse {
-  border: none;
+  border-bottom: 5px solid #c52d2f;
 }
 
 .navbar-inverse .navbar-brand {
-  font-size: 36px;
-  line-height: 50px;
-  color: #fff;
+
 }
 
 .navbar-inverse .navbar-nav > .active > a,
@@ -309,8 +342,9 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #c52d2f;
-  color: #fff;
+  background-color: #fff;
+  color: #323254;
+  font-weight: bold;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu {
@@ -2532,9 +2566,10 @@ shortcodes page css
 }
 
 h1.animation.animated-item-1 {
-  color:#454545;
+  color:#fff;
 }
 
 h2.animation.animated-item-2 {
-  color:#454545 !important;
+
+  color:#fff !important;
 }
