@@ -206,7 +206,6 @@ margin: 0px 15px;
 
 a.navbar-brand{
   font-size: 10px;
-
 }
 
 a.navbar-brand>img.iclLogo{
@@ -2571,5 +2570,7 @@ h1.animation.animated-item-1 {
 
 h2.animation.animated-item-2 {
 
-  color:#fff !important;
+  color:#fff;
 }
+
+h2.blacktext{ color: #000 !important; }
